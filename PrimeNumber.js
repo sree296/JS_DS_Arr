@@ -11,7 +11,7 @@ Eg: num = 15, Math.sqrt(15) = 3.87
 so, there must be a number before 3.87.
 that is 15%3=0. So no need to check for 15%5=0.
 */
-    for(let i=2; i<Math.sqrt(num); i++){
+  for(let i=2; i<Math.sqrt(num); i++){
       if(num%i === 0) {
         return false;
       }
